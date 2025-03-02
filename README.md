@@ -2,7 +2,7 @@
 
 ---
 
-## ** Completed Work & Achievements**
+## Completed Work & Achievements
 
 1️⃣ **User Authentication**
    - **JWT-based authentication** for login and registration.  
@@ -32,7 +32,7 @@
 
 ---
 
-## **Challenges Faced & How We Resolved Them**
+## Challenges Faced & How We Resolved Them
 1️⃣ **OAuth Integration Delays**  
    - Initially faced issues in setting up **Google & Facebook login**.  
    - **Solution:** Used **Passport.js** and debugged API redirections.  
