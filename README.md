@@ -49,7 +49,7 @@
 
 ---
 
-## ** Pending Items & Blockers**
+##  Pending Items & Blockers
 **You:**  
 *"While we accomplished most of the planned features, a few tasks are still pending and will be carried over to the next sprint."*
 
@@ -62,7 +62,7 @@
 
 ---
 
-## ** Next Steps & Sprint Planning**
+##  Next Steps & Sprint Planning
 ✅ **Implementing Duo Multi-Factor Authentication (MFA)**  
    - Require **Duo push notification or OTP verification** before login.  
    - Protect sensitive actions with **step-up authentication**.  
