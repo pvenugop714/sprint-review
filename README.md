@@ -1,23 +1,8 @@
-### **📝 Sprint Review Meeting Script**  
-This script will help you **confidently present your part** during the Sprint Review Meeting.  
+### **📝 Sprint Review**  
 
 ---
 
-## **🎤 Opening Statement**
-**You:**  
-*"Hello everyone, welcome to the Sprint Review for our Learning Management System (LMS) backend. I will walk you through the progress we made in this sprint, including what we achieved, challenges we faced, and what’s planned next."*
-
----
-
-## **📌 1️⃣ Sprint Goal Recap**
-**You:**  
-*"Our primary goal in this sprint was to complete the authentication and security features for the LMS backend. This included implementing user authentication, password reset functionalities, and securing our API endpoints. Additionally, we aimed to introduce multi-factor authentication (MFA) for enhanced security."*
-
----
-
-## **✅ 2️⃣ Completed Work & Achievements**
-**You:**  
-*"We successfully implemented the following features:"*
+## ** Completed Work & Achievements**
 
 1️⃣ **User Authentication**
    - **JWT-based authentication** for login and registration.  
@@ -47,34 +32,7 @@ This script will help you **confidently present your part** during the Sprint Re
 
 ---
 
-## **🔥 3️⃣ Demo of Implemented Features**
-**You:**  
-*"Now, I will walk you through a quick demonstration of our backend functionalities."*
-
-1️⃣ **Register & Login Demo**  
-   - Show how a **new user registers** using Postman.  
-   - Log in with the newly created account and get a **JWT token**.  
-
-2️⃣ **OAuth Login Demo**  
-   - Show **Google/Facebook authentication** flow.  
-
-3️⃣ **Protected Route Demo**  
-   - Attempt to **access a restricted route** without a token (should fail).  
-   - Provide a valid token and **access granted** (successful response).  
-
-4️⃣ **Password Reset Flow**  
-   - Show a user requesting **password reset via security question**.  
-   - Validate the security answer and **receive a reset token**.  
-   - Successfully **reset password using the token**.  
-
-*"This demonstrates that all the core authentication features are working as expected."*
-
----
-
-## **⚠️ 4️⃣ Challenges Faced & How We Resolved Them**
-**You:**  
-*"We encountered a few challenges during the sprint, but we successfully resolved them. Here are some key ones:"*
-
+## **Challenges Faced & How We Resolved Them**
 1️⃣ **OAuth Integration Delays**  
    - Initially faced issues in setting up **Google & Facebook login**.  
    - **Solution:** Used **Passport.js** and debugged API redirections.  
@@ -91,23 +49,20 @@ This script will help you **confidently present your part** during the Sprint Re
 
 ---
 
-## **🚧 5️⃣ Pending Items & Blockers**
+## ** Pending Items & Blockers**
 **You:**  
 *"While we accomplished most of the planned features, a few tasks are still pending and will be carried over to the next sprint."*
 
 | **Pending Feature** | **Reason for Delay** | **Next Steps** |
 |---------------------|---------------------|----------------|
 | **Duo MFA Implementation** | Still researching best integration approach | Will be implemented next sprint. |
-| **PostgreSQL Database Integration** | Another team member is handling it | Awaiting database setup. |
+| **PostgreSQL Database Integration**  | Awaiting database setup. |
 
 *"We are prioritizing these tasks in the upcoming sprint."*
 
 ---
 
-## **🔜 6️⃣ Next Steps & Sprint Planning**
-**You:**  
-*"Looking ahead, the next sprint will focus on improving security and scalability. Our key priorities include:"*
-
+## ** Next Steps & Sprint Planning**
 ✅ **Implementing Duo Multi-Factor Authentication (MFA)**  
    - Require **Duo push notification or OTP verification** before login.  
    - Protect sensitive actions with **step-up authentication**.  
@@ -123,19 +78,3 @@ This script will help you **confidently present your part** during the Sprint Re
 *"Completing these will significantly enhance the security and performance of our LMS backend."*
 
 ---
-
-## **🎯 Closing Statement**
-**You:**  
-*"To summarize, we have successfully built a secure and functional authentication system with JWT, OAuth, and security-based password recovery. Moving forward, we will enhance security with Duo MFA and database integration."*  
-
-*"Thank you all for your time! I’m open to any questions or feedback."*
-
----
-
-### **💡 Final Touches**
-- ✅ Be **clear & concise** in your explanations.  
-- ✅ Keep **Postman ready** for the live demo.  
-- ✅ If asked about a blocker, explain how it will be resolved.  
-- ✅ End with a **strong summary & next steps**.  
-
-Would you like me to prepare a **Sprint Review Slide Deck outline** to present this visually? 🚀
